@@ -6,7 +6,7 @@
 
     <groupId>com.lumi.aiot</groupId>
     <artifactId>pom.base</artifactId>
-    <version>0.0.19</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <properties>

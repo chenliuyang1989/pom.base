@@ -11,7 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.build.targetJDK>1.7</project.build.targetJDK>
+        <project.build.targetJDK>1.8</project.build.targetJDK>
 
         <!-- maven plugin -->
         <plugin.checkstyle.version>2.9.1</plugin.checkstyle.version>
@@ -571,6 +571,7 @@
         <!-- logger end -->
     </dependencies>
 
+    <!--
     <build>
         <pluginManagement>
             <plugins>
@@ -630,7 +631,6 @@
                         <suppressionsLocation>${project.basedir}/build/check-style-suppression.xml
                         </suppressionsLocation>
                         <consoleOutput>true</consoleOutput>
-                        <!--<failsOnError>true</failsOnError>-->
                     </configuration>
                     <executions>
                         <execution>
@@ -686,7 +686,9 @@
                 </executions>
             </plugin>
         </plugins>
-    </build>
+    </build -->
+
+
 
     <reporting>
         <plugins>
